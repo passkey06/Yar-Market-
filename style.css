@@ -1,1 +1,130 @@
-/* Yarış Market CSS */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#222;
+}
+
+header{
+background:#0b6b3a;
+color:white;
+text-align:center;
+padding:25px 20px;
+}
+
+header img{
+width:120px;
+margin-bottom:10px;
+}
+
+header h1{
+font-size:30px;
+font-weight:700;
+}
+
+header p{
+margin-top:8px;
+font-size:15px;
+}
+
+.btn{
+margin-top:20px;
+background:#ff6b00;
+color:white;
+border:none;
+padding:14px 30px;
+border-radius:12px;
+font-size:18px;
+font-weight:600;
+cursor:pointer;
+}
+
+.btn:hover{
+background:#e95f00;
+}
+
+.category-title{
+padding:20px;
+font-size:24px;
+font-weight:bold;
+}
+
+.categories{
+padding:15px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.card{
+background:white;
+border-radius:18px;
+padding:18px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.25s;
+}
+
+.card:hover{
+transform:scale(1.02);
+}
+
+.left{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.icon{
+font-size:45px;
+}
+
+.card h3{
+font-size:22px;
+margin-bottom:5px;
+}
+
+.card p{
+font-size:14px;
+color:#666;
+}
+
+.arrow{
+font-size:28px;
+color:#0b6b3a;
+font-weight:bold;
+}
+
+.info{
+padding:25px;
+text-align:center;
+}
+
+.info div{
+margin:10px 0;
+font-size:17px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+width:65px;
+height:65px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:34px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
